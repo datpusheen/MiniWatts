@@ -11,6 +11,12 @@
             "state" : "translated",
             "value" : "比该充电器的最好记录高 %@。充电器相同，所以这个差值来自线缆和插头，不是适配器。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cao hơn %@ so với mức tốt nhất từng ghi nhận trên bộ sạc này. Vì dùng cùng bộ sạc, chênh lệch này đến từ cáp và đầu nối, không phải bộ sạc."
+          }
         }
       }
     },
@@ -20,6 +26,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "端口实测 %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ tại cổng"
           }
         }
       }
@@ -31,6 +43,12 @@
             "state" : "translated",
             "value" : "%lld 次充电"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld phiên sạc"
+          }
         }
       }
     },
@@ -40,6 +58,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "按当前取电"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ở mức dòng điện hiện tại"
           }
         }
       }
@@ -51,6 +75,12 @@
             "state" : "translated",
             "value" : "线缆与连接"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cáp và kết nối"
+          }
         }
       }
     },
@@ -60,6 +90,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "线缆对比"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So sánh cáp"
           }
         }
       }
@@ -71,6 +107,12 @@
             "state" : "translated",
             "value" : "两种算法给出的都是整条通路——充电器自身的稳压、线缆和两端插头——而不是线缆本身，所以它最适合用来在同一个充电器上横向比较不同的线。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cả hai cách đều đo toàn bộ đường sạc, gồm khả năng ổn áp của bộ sạc, cáp và hai đầu nối, chứ không chỉ riêng cáp. Vì vậy, kết quả phù hợp nhất để so sánh các cáp dùng trên cùng một bộ sạc."
+          }
         }
       }
     },
@@ -80,6 +122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "华氏度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Độ F"
           }
         }
       }
@@ -91,6 +139,12 @@
             "state" : "translated",
             "value" : "在 %@ 的电流变化范围内拟合，其中 %@ 落在这条直线上。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khớp trên khoảng biến thiên dòng điện %@, với %@ mức biến thiên được giải thích bởi đường hồi quy."
+          }
         }
       }
     },
@@ -100,6 +154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在整段合约上拟合"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "khớp trên toàn bộ giai đoạn dùng cùng cấu hình sạc"
           }
         }
       }
@@ -111,6 +171,12 @@
             "state" : "translated",
             "value" : "单次采样"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "từ một mẫu đo"
+          }
         }
       }
     },
@@ -120,6 +186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "单次采样，以协商出的 %@ 为参考。那个值是天花板而不是测量值，所以只能当数量级看。一旦电流动起来——80% 之后的涓流、热降频、手机自身的负载——它就会被一个完全不需要参考值的拟合结果取代。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dựa trên một mẫu đo, so với mức %@ đã thương lượng. Đây là giới hạn tối đa chứ không phải số đo, nên chỉ dùng để ước lượng độ lớn. Khi dòng điện thay đổi do giảm dòng sau 80%, giới hạn nhiệt hoặc tải của điện thoại, kết quả sẽ được thay bằng phép khớp không cần giá trị tham chiếu."
           }
         }
       }
@@ -131,6 +203,12 @@
             "state" : "translated",
             "value" : "获取${metric}"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lấy ${metric}"
+          }
         }
       }
     },
@@ -140,6 +218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "获取${metric}（${unit}）"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lấy ${metric} theo ${unit}"
           }
         }
       }
@@ -151,6 +235,12 @@
             "state" : "translated",
             "value" : "获取读数"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lấy số đo"
+          }
         }
       }
     },
@@ -160,6 +250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "对充电通路来说偏高。线更细、更长，插头磨损，或接触松动，看起来都是这样。在同一个充电器上换一根线，才能分清是哪一种。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cao đối với đường sạc. Cáp mảnh hoặc dài, đầu nối bị mòn hay kết nối lỏng đều có thể gây ra tình trạng này. Hãy thử cáp khác trên cùng bộ sạc để xác định nguyên nhân."
           }
         }
       }
@@ -171,6 +267,12 @@
             "state" : "translated",
             "value" : "通路损耗"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tổn hao trên đường sạc"
+          }
         }
       }
     },
@@ -180,6 +282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "低。这条连接没有拖慢充电。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thấp. Kết nối này không cản trở quá trình sạc."
           }
         }
       }
@@ -191,6 +299,12 @@
             "state" : "translated",
             "value" : "占可用电流"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "của dòng điện được cung cấp"
+          }
         }
       }
     },
@@ -200,6 +314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "对较长或较细的线缆来说很常见。会有少量功率变成热，在这样的电流下不太会影响充电速度。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bình thường với cáp dài hoặc mảnh. Một ít công suất bị mất dưới dạng nhiệt, nhưng ở mức dòng điện này thường không ảnh hưởng đến tốc độ sạc."
           }
         }
       }
@@ -211,6 +331,12 @@
             "state" : "translated",
             "value" : "通路电阻"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện trở đường sạc"
+          }
         }
       }
     },
@@ -220,6 +346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "读数"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số đo"
           }
         }
       }
@@ -231,6 +363,12 @@
             "state" : "translated",
             "value" : "在动作运行的那一刻从手机传感器读取一个值。传感器没有应答时，动作返回“无值”——不会返回 0，也不会返回之前的读数——这样快捷指令能分辨出来。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đọc một giá trị từ cảm biến của điện thoại ngay khi tác vụ chạy. Nếu cảm biến không phản hồi, tác vụ không trả về giá trị nào, kể cả 0 hay số đo cũ, để phím tắt có thể phân biệt tình huống này."
+          }
         }
       }
     },
@@ -240,6 +378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "取电比例"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang nhận"
           }
         }
       }
@@ -251,6 +395,12 @@
             "state" : "translated",
             "value" : "温度单位"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đơn vị nhiệt độ"
+          }
         }
       }
     },
@@ -260,6 +410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这是该充电器上记录到的最低通路电阻。这次用的线和插法，已经是它见过最好的。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện trở đường sạc thấp nhất từng ghi nhận trên bộ sạc này. Kết nối hiện tại đạt mức tốt nhất từng đo được."
           }
         }
       }
@@ -271,6 +427,12 @@
             "state" : "translated",
             "value" : "供电轨在负载下塌陷。手机取的电远低于充电器给出的额度，端口电压也远低于协商值——电流正被压着，以免电压继续往下掉。在这个充电器上换一根线试试：压降变小，就是线的问题。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện áp đường nguồn sụt mạnh khi có tải. Điện thoại nhận dòng thấp hơn nhiều so với mức bộ sạc cung cấp, còn điện áp tại cổng thấp hơn nhiều so với mức đã thương lượng. Dòng điện đang bị giới hạn để điện áp không giảm thêm. Hãy thử cáp khác trên cùng bộ sạc: nếu sụt áp giảm, nguyên nhân là cáp."
+          }
         }
       }
     },
@@ -280,6 +442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "端口电压已经塌到远低于协商值，手机正压着电流以维持电压。问题出在线缆或插头，不在充电器。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện áp tại cổng đã sụt thấp hơn nhiều so với mức đã thương lượng, và điện thoại đang giới hạn dòng để duy trì điện áp. Nguyên nhân là cáp hoặc đầu nối, không phải bộ sạc."
           }
         }
       }
@@ -291,6 +459,12 @@
             "state" : "translated",
             "value" : "单位"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đơn vị"
+          }
         }
       }
     },
@@ -300,6 +474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电压损失"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sụt áp"
           }
         }
       }
@@ -311,6 +491,12 @@
             "state" : "translated",
             "value" : "等待手机取电到足以测出压降。低于约 150 mA 就没有可除的东西了。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ điện thoại nhận đủ dòng để đo sụt áp. Dưới khoảng 150 mA, chưa đủ dữ liệu để tính."
+          }
         }
       }
     },
@@ -320,6 +506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线充电没有线缆，也没有输入电流传感器，无从测量。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sạc không dây không có cáp và cảm biến dòng đầu vào, nên không có gì để đo."
           }
         }
       }
@@ -351,6 +543,12 @@
             "state" : "translated",
             "value" : "%1$@ 已持续 %2$@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ trong %@"
+          }
         }
       }
     },
@@ -360,6 +558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 发热"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ quá nóng"
           }
         }
       }
@@ -371,6 +575,12 @@
             "state" : "translated",
             "value" : "%@ W 输入"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W đầu vào"
+          }
         }
       }
     },
@@ -380,6 +590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ W 充入电芯"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W vào pin"
           }
         }
       }
@@ -394,6 +610,12 @@
             "state" : "translated",
             "value" : "%lld 个样本"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mẫu đo"
+          }
         }
       }
     },
@@ -403,6 +625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 个传感器"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld cảm biến"
           }
         }
       }
@@ -423,6 +651,12 @@
             "state" : "translated",
             "value" : "%1$lld%% → %2$lld%%"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%% → %lld%%"
+          }
         }
       }
     },
@@ -432,6 +666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "占适配器 %lld%%"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%% công suất bộ sạc"
           }
         }
       }
@@ -446,6 +686,12 @@
             "state" : "translated",
             "value" : "46+"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "46+"
+          }
         }
       }
     },
@@ -455,6 +701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "切到后台不会结束一次充电记录：记录在拔掉充电器时才结束，而不是在你切走时。应用没看到的那段时间会从总量中排除，而不是估算补上；每条记录都会注明其中有多少是真正测到的。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên sạc vẫn tiếp tục khi ứng dụng chạy nền: phiên kết thúc khi bạn rút sạc, không phải khi chuyển sang ứng dụng khác. Khoảng thời gian ứng dụng không đo được sẽ bị loại khỏi tổng thay vì ước tính, và phiên sạc cho biết thời lượng thực sự được đo."
           }
         }
       }
@@ -466,6 +718,12 @@
             "state" : "translated",
             "value" : "插入充电器时开始记录会话，拔出时自动保存。电量数据由实时传感器积分计算得出，因此请将 MiniWatts 保持在前台运行，以确保完整记录整个充电过程。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên sạc bắt đầu khi cắm sạc và được lưu khi rút sạc. Năng lượng được tính tích lũy từ cảm biến trực tiếp, nên hãy giữ MiniWatts trên màn hình để tổng số liệu bao quát toàn bộ phiên sạc."
+          }
         }
       }
     },
@@ -475,6 +733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关于"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giới thiệu"
           }
         }
       }
@@ -486,6 +750,12 @@
             "state" : "translated",
             "value" : "超过 80% 后充电转入恒压涓流阶段，此时功率偏低是正常的电池特性，不是充电器不行。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trên 80%, quá trình sạc chuyển sang điện áp không đổi và giảm dòng. Công suất thấp ở giai đoạn này là đặc tính hóa học bình thường của pin, không phải do bộ sạc yếu."
+          }
         }
       }
     },
@@ -495,6 +765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "配件"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phụ kiện"
           }
         }
       }
@@ -506,6 +782,12 @@
             "state" : "translated",
             "value" : "此 iOS 版本不支持读取配件电量。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản iOS này không cung cấp mức pin của phụ kiện."
+          }
         }
       }
     },
@@ -515,6 +797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "适配器"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ sạc"
           }
         }
       }
@@ -526,6 +814,12 @@
             "state" : "translated",
             "value" : "适配器利用率"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mức sử dụng bộ sạc"
+          }
         }
       }
     },
@@ -535,6 +829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "广播供电规格"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cấu hình sạc được công bố"
           }
         }
       }
@@ -546,6 +846,12 @@
             "state" : "translated",
             "value" : "所有会话"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tất cả phiên sạc"
+          }
         }
       }
     },
@@ -555,6 +861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可用"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "khả dụng"
           }
         }
       }
@@ -566,6 +878,12 @@
             "state" : "translated",
             "value" : "平均输入"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đầu vào trung bình"
+          }
         }
       }
     },
@@ -575,6 +893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pin"
           }
         }
       }
@@ -586,6 +910,12 @@
             "state" : "translated",
             "value" : "电池温度 °C"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pin °C"
+          }
         }
       }
     },
@@ -595,6 +925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电芯"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tế bào pin"
           }
         }
       }
@@ -606,6 +942,12 @@
             "state" : "translated",
             "value" : "电池能量"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Năng lượng pin"
+          }
         }
       }
     },
@@ -615,6 +957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池健康度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tình trạng pin"
           }
         }
       }
@@ -626,6 +974,12 @@
             "state" : "translated",
             "value" : "电池组电压"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện áp bộ pin"
+          }
         }
       }
     },
@@ -635,6 +989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池侧"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đường nguồn pin"
           }
         }
       }
@@ -646,6 +1006,12 @@
             "state" : "translated",
             "value" : "电池轨电压"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện áp đường nguồn pin"
+          }
         }
       }
     },
@@ -655,6 +1021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BatteryCenter 已加载并有响应，但未报告任何已连接设备。它对 powerd 的 XPC 被拒绝：控制台会出现 _BCPowerSourceController “Failed to obtain power sources info”。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter đã tải và phản hồi nhưng không báo thiết bị nào được kết nối. Kết nối XPC tới powerd bị từ chối: bảng điều khiển hiển thị _BCPowerSourceController \"Failed to obtain power sources info\"."
           }
         }
       }
@@ -666,6 +1038,12 @@
             "state" : "translated",
             "value" : "BatteryCenter 已加载，但运行时中未找到 BCBatteryDeviceController。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter đã tải nhưng BCBatteryDeviceController không có trong môi trường thực thi."
+          }
         }
       }
     },
@@ -675,6 +1053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BatteryCenter.framework 加载失败：%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tải được BatteryCenter.framework: %@"
           }
         }
       }
@@ -686,6 +1070,12 @@
             "state" : "translated",
             "value" : "在此 iOS 版本上无法创建 BCBatteryDeviceController。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể tạo BCBatteryDeviceController trên phiên bản iOS này."
+          }
         }
       }
     },
@@ -695,6 +1085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在此 iOS 版本上，BCBatteryDeviceController 未提供设备列表。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BCBatteryDeviceController không cung cấp danh sách thiết bị trên phiên bản iOS này."
           }
         }
       }
@@ -706,6 +1102,12 @@
             "state" : "translated",
             "value" : "相机"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera"
+          }
         }
       }
     },
@@ -715,6 +1117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
           }
         }
       }
@@ -726,6 +1134,12 @@
             "state" : "translated",
             "value" : "充电盒"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hộp sạc"
+          }
         }
       }
     },
@@ -735,6 +1149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电芯电流"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng điện pin"
           }
         }
       }
@@ -746,6 +1166,12 @@
             "state" : "translated",
             "value" : "电芯温度"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ pin"
+          }
         }
       }
     },
@@ -755,6 +1181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电芯电压"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện áp pin"
           }
         }
       }
@@ -766,6 +1198,12 @@
             "state" : "translated",
             "value" : "电芯功率 ÷ 充电器功率"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "công suất vào pin ÷ công suất bộ sạc"
+          }
         }
       }
     },
@@ -775,6 +1213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摄氏度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Độ C"
           }
         }
       }
@@ -786,6 +1230,12 @@
             "state" : "translated",
             "value" : "电量 %"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pin %"
+          }
         }
       }
     },
@@ -795,6 +1245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电曲线"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đường cong sạc"
           }
         }
       }
@@ -806,6 +1262,12 @@
             "state" : "translated",
             "value" : "充电芯片"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IC sạc"
+          }
         }
       }
     },
@@ -815,6 +1277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电芯片核心温度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lõi IC sạc"
           }
         }
       }
@@ -826,6 +1294,12 @@
             "state" : "translated",
             "value" : "充电芯片结温"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp giáp IC sạc"
+          }
         }
       }
     },
@@ -835,6 +1309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池电量"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mức pin"
           }
         }
       }
@@ -846,6 +1326,12 @@
             "state" : "translated",
             "value" : "当前充电功率低于适配器额定功率属正常现象：此时的功率限制来自系统温控，而非充电器。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công suất sạc hiện thấp hơn định mức bộ sạc là điều bình thường: giới hạn đến từ hệ thống, không phải bộ sạc."
+          }
         }
       }
     },
@@ -855,6 +1341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电中"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "đang sạc"
           }
         }
       }
@@ -866,6 +1358,12 @@
             "state" : "translated",
             "value" : "充电中"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang sạc"
+          }
         }
       }
     },
@@ -875,6 +1373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电处于暂停状态，几乎不取电。优化电池充电或充电上限就是这个样子。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quá trình sạc đang tạm dừng nên gần như không nhận công suất. Sạc pin được tối ưu hóa hoặc giới hạn sạc cũng có biểu hiện này."
           }
         }
       }
@@ -886,6 +1390,12 @@
             "state" : "translated",
             "value" : "暂停充电"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sạc đang tạm dừng"
+          }
         }
       }
     },
@@ -895,6 +1405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当前为无线充电。充电芯片仅提供了线圈电压，未提供对应电流，因此无法测量输入功率 —— 仅能测量充入电芯的功率。充电器自身报告的数值仅为功率上限而非实时读数，不会发生变化。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang sạc không dây. IC sạc cung cấp điện áp cuộn dây nhưng không có dòng điện tương ứng, nên không thể đo công suất đầu vào, chỉ đo được công suất vào pin. Con số bộ sạc tự báo là giới hạn tối đa, không phải số đo, và không thay đổi."
           }
         }
       }
@@ -906,6 +1422,12 @@
             "state" : "translated",
             "value" : "机身"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thân máy"
+          }
         }
       }
     },
@@ -915,6 +1437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "严重过热"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguy cấp"
           }
         }
       }
@@ -926,6 +1454,12 @@
             "state" : "translated",
             "value" : "电池充电电流"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng điện vào pin"
+          }
         }
       }
     },
@@ -935,6 +1469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "循环次数"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số chu kỳ"
           }
         }
       }
@@ -946,6 +1486,12 @@
             "state" : "translated",
             "value" : "全部删除"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa tất cả"
+          }
         }
       }
     },
@@ -955,6 +1501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除所有已保存的会话？"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa tất cả phiên sạc đã lưu?"
           }
         }
       }
@@ -966,6 +1518,12 @@
             "state" : "translated",
             "value" : "输入"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã cấp"
+          }
         }
       }
     },
@@ -975,6 +1533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "详细信息"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chi tiết"
           }
         }
       }
@@ -986,6 +1550,12 @@
             "state" : "translated",
             "value" : "设备"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị"
+          }
         }
       }
     },
@@ -995,6 +1565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设备"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị"
           }
         }
       }
@@ -1006,6 +1582,12 @@
             "state" : "translated",
             "value" : "屏幕"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình"
+          }
         }
       }
     },
@@ -1015,6 +1597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong"
           }
         }
       }
@@ -1026,6 +1614,12 @@
             "state" : "translated",
             "value" : "实际功率与额定功率"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công suất nhận so với định mức"
+          }
         }
       }
     },
@@ -1035,6 +1629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "远低于适配器的额定功率。线材太细、端口被分流，或手机拒绝了某个档位，都会这样。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công suất nhận thấp hơn nhiều so với định mức bộ sạc. Nguyên nhân có thể là cáp mảnh, cổng dùng chung hoặc cấu hình sạc mà điện thoại không chấp nhận."
           }
         }
       }
@@ -1046,6 +1646,12 @@
             "state" : "translated",
             "value" : "由电池供电"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lấy từ pin"
+          }
         }
       }
     },
@@ -1055,6 +1661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "耳机 + 充电盒"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tai nghe + Hộp sạc"
           }
         }
       }
@@ -1066,6 +1678,12 @@
             "state" : "translated",
             "value" : "转换效率"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiệu suất"
+          }
         }
       }
     },
@@ -1075,6 +1693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已用时间"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã qua"
           }
         }
       }
@@ -1086,6 +1710,12 @@
             "state" : "translated",
             "value" : "%@后耗尽"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cạn sau %@"
+          }
         }
       }
     },
@@ -1095,6 +1725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "结束"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết thúc"
           }
         }
       }
@@ -1106,6 +1742,12 @@
             "state" : "translated",
             "value" : "能量"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Năng lượng"
+          }
         }
       }
     },
@@ -1115,6 +1757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "轻度发热"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ấm"
           }
         }
       }
@@ -1126,6 +1774,12 @@
             "state" : "translated",
             "value" : "即将充满"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sắp sạc đầy"
+          }
         }
       }
     },
@@ -1135,6 +1789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "来自电池（%-率估算）"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "từ pin (ước tính theo tốc độ giảm %)"
           }
         }
       }
@@ -1146,6 +1806,12 @@
             "state" : "translated",
             "value" : "来自充电器"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "từ bộ sạc"
+          }
         }
       }
     },
@@ -1155,6 +1821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "来自充电器"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Từ bộ sạc"
           }
         }
       }
@@ -1166,6 +1838,12 @@
             "state" : "translated",
             "value" : "来自 MagSafe"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "từ MagSafe"
+          }
         }
       }
     },
@@ -1175,6 +1853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已充满"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đầy"
           }
         }
       }
@@ -1186,6 +1870,12 @@
             "state" : "translated",
             "value" : "%@后充满"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "đầy sau %@"
+          }
         }
       }
     },
@@ -1195,6 +1885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "增加电量"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã tăng"
           }
         }
       }
@@ -1206,6 +1902,12 @@
             "state" : "translated",
             "value" : "握手信息"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thương lượng sạc"
+          }
         }
       }
     },
@@ -1215,6 +1917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "热力图 · 示意图"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản đồ nhiệt · sơ đồ minh họa"
           }
         }
       }
@@ -1226,6 +1934,12 @@
             "state" : "translated",
             "value" : "HID 传感器"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảm biến HID"
+          }
         }
       }
     },
@@ -1235,6 +1949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "历史记录"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lịch sử"
           }
         }
       }
@@ -1246,6 +1966,12 @@
             "state" : "translated",
             "value" : "最高温度"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nóng nhất"
+          }
         }
       }
     },
@@ -1255,6 +1981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最高温传感器（最近 3 分钟）"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảm biến nóng nhất, 3 phút qua"
           }
         }
       }
@@ -1266,6 +1998,12 @@
             "state" : "translated",
             "value" : "空闲"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chờ"
+          }
         }
       }
     },
@@ -1275,6 +2013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "进行中"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang diễn ra"
           }
         }
       }
@@ -1286,6 +2030,12 @@
             "state" : "translated",
             "value" : "推断"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "suy đoán"
+          }
         }
       }
     },
@@ -1295,6 +2045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "内置"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tích hợp"
           }
         }
       }
@@ -1306,6 +2062,12 @@
             "state" : "translated",
             "value" : "进入电池"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vào pin"
+          }
         }
       }
     },
@@ -1315,6 +2077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "进入电池"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vào pin"
           }
         }
       }
@@ -1326,6 +2094,12 @@
             "state" : "translated",
             "value" : "充入电芯"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vào tế bào pin"
+          }
         }
       }
     },
@@ -1335,6 +2109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "IOKit 报告此系统的设计容量为 %lld mAh，因此将直接使用该数值。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IOKit báo dung lượng thiết kế %lld mAh trên hệ thống này, nên giá trị đó được dùng thay thế."
           }
         }
       }
@@ -1346,6 +2126,12 @@
             "state" : "translated",
             "value" : "充电时保持屏幕常亮"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giữ màn hình sáng khi sạc"
+          }
         }
       }
     },
@@ -1355,6 +2141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最近 3 分钟"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 phút qua"
           }
         }
       }
@@ -1366,6 +2158,12 @@
             "state" : "translated",
             "value" : "左"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trái"
+          }
         }
       }
     },
@@ -1375,6 +2173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "左 + 右"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trái + Phải"
           }
         }
       }
@@ -1386,6 +2190,12 @@
             "state" : "translated",
             "value" : "电量与温度"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mức pin và nhiệt độ"
+          }
         }
       }
     },
@@ -1395,6 +2205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "实时供电轨"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đường nguồn trực tiếp"
           }
         }
       }
@@ -1406,6 +2222,12 @@
             "state" : "translated",
             "value" : "损耗"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tổn hao"
+          }
         }
       }
     },
@@ -1415,6 +2237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发热损耗"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mất dưới dạng nhiệt"
           }
         }
       }
@@ -1426,6 +2254,12 @@
             "state" : "translated",
             "value" : "低电量"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "thấp"
+          }
         }
       }
     },
@@ -1436,12 +2270,24 @@
             "state" : "translated",
             "value" : "低电量模式"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiết kiệm pin"
+          }
         }
       }
     },
     "MagSafe" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MagSafe"
@@ -1455,6 +2301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "制造商"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhà sản xuất"
           }
         }
       }
@@ -1472,12 +2324,24 @@
             "state" : "translated",
             "value" : "在总计 %2$@ 中实际测量了 %1$@ —— 其余时间应用处于后台，该时间段直接排除未进行估算。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã đo %@ trên tổng %@. Thời gian còn lại ứng dụng chạy nền nên bị loại khỏi tổng thay vì ước tính."
+          }
         }
       }
     },
     "MiniWatts" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MiniWatts"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MiniWatts"
@@ -1492,6 +2356,12 @@
             "state" : "translated",
             "value" : "MiniWatts 通过私有框架（IOKit、IOHIDEventSystemClient 和 BatteryCenter）读取手机自身的电源管理传感器。所有数据均保留在设备本地，且不会在应用自身的容器外写入任何内容。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MiniWatts đọc cảm biến quản lý điện năng của điện thoại qua các framework riêng tư: IOKit, IOHIDEventSystemClient và BatteryCenter. Dữ liệu không rời khỏi thiết bị và không được ghi bên ngoài vùng lưu trữ riêng của ứng dụng."
+          }
         }
       }
     },
@@ -1501,6 +2371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "型号"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mẫu"
           }
         }
       }
@@ -1512,6 +2388,12 @@
             "state" : "translated",
             "value" : "机型标识"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã định danh mẫu"
+          }
         }
       }
     },
@@ -1521,6 +2403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "名称"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên"
           }
         }
       }
@@ -1532,6 +2420,12 @@
             "state" : "translated",
             "value" : "协商档位"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tối đa đã thương lượng"
+          }
         }
       }
     },
@@ -1541,6 +2435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本次记录没有电芯温度数据。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không ghi nhận nhiệt độ pin cho phiên sạc này."
           }
         }
       }
@@ -1552,6 +2452,12 @@
             "state" : "translated",
             "value" : "暂无已完成的充电记录"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có phiên sạc hoàn tất"
+          }
         }
       }
     },
@@ -1561,6 +2467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未发现 HID 功率传感器。在模拟器上这是正常现象 —— IOKit 读取的是 Mac 的电池，手机的 PMU 传感器并不存在。请在真机上运行以获取真实数据。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy cảm biến công suất HID. Điều này bình thường trên trình mô phỏng: IOKit đọc pin của máy Mac và không có cảm biến PMU của điện thoại. Hãy chạy trên thiết bị để có số đo thực."
           }
         }
       }
@@ -1572,6 +2484,12 @@
             "state" : "translated",
             "value" : "无读数"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chưa có số đo"
+          }
         }
       }
     },
@@ -1581,6 +2499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未记录任何样本。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa ghi nhận mẫu đo."
           }
         }
       }
@@ -1592,6 +2516,12 @@
             "state" : "translated",
             "value" : "未发现温度传感器。模拟器不提供温度传感器；在真机上，应用读取 HID 服务列表后即可显示。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy cảm biến nhiệt độ. Trình mô phỏng không có các cảm biến này; trên thiết bị, chúng xuất hiện ngay khi ứng dụng đọc danh sách dịch vụ HID."
+          }
         }
       }
     },
@@ -1601,6 +2531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电电流不受发热限制。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng sạc không bị giới hạn do nhiệt."
           }
         }
       }
@@ -1612,6 +2548,12 @@
             "state" : "translated",
             "value" : "正常"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bình thường"
+          }
         }
       }
     },
@@ -1621,6 +2563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未连接"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa kết nối"
           }
         }
       }
@@ -1632,6 +2580,12 @@
             "state" : "translated",
             "value" : "/"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trên"
+          }
         }
       }
     },
@@ -1641,6 +2595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池供电"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dùng pin"
           }
         }
       }
@@ -1652,6 +2612,12 @@
             "state" : "translated",
             "value" : "电池供电"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng pin"
+          }
         }
       }
     },
@@ -1661,6 +2627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "其他传感器"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảm biến khác"
           }
         }
       }
@@ -1672,6 +2644,12 @@
             "state" : "translated",
             "value" : "设备过热：已暂停充电，直至手机冷却。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quá nóng: sạc bị tạm dừng cho đến khi điện thoại nguội."
+          }
         }
       }
     },
@@ -1681,6 +2659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "峰值 %@ W"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "đỉnh %@ W"
           }
         }
       }
@@ -1692,6 +2676,12 @@
             "state" : "translated",
             "value" : "电芯温度峰值"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ pin cao nhất"
+          }
         }
       }
     },
@@ -1701,6 +2691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电器输入峰值"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đỉnh từ bộ sạc"
           }
         }
       }
@@ -1712,6 +2708,12 @@
             "state" : "translated",
             "value" : "充入电芯峰值"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đỉnh vào pin"
+          }
         }
       }
     },
@@ -1721,6 +2723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "百分比"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phần trăm"
           }
         }
       }
@@ -1732,6 +2740,12 @@
             "state" : "translated",
             "value" : "接入充电器以读取其握手信息。USB-PD 适配器会广播包含电压与电流的供电规格列表；手机选择其中一个档位，此页面会显示所选档位以及当前实际的功率流动情况。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cắm bộ sạc để đọc thông tin thương lượng. Bộ sạc USB-PD công bố các cấu hình điện áp và dòng điện; điện thoại chọn một cấu hình. Trang này hiển thị cấu hình đã chọn cùng số đo thực tế."
+          }
         }
       }
     },
@@ -1741,6 +2755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "接入充电器以开始测量。应用在前台运行时将从实时传感器积分计算电量，并在拔出时保存至历史记录。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cắm sạc để bắt đầu đo. Năng lượng được tính tích lũy từ cảm biến trực tiếp khi ứng dụng đang mở và được lưu vào Lịch sử khi rút sạc."
           }
         }
       }
@@ -1752,6 +2772,12 @@
             "state" : "translated",
             "value" : "已连接电源，未充电"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã cắm, chưa sạc"
+          }
         }
       }
     },
@@ -1761,6 +2787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "功率"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công suất"
           }
         }
       }
@@ -1772,6 +2804,12 @@
             "state" : "translated",
             "value" : "供电路径"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đường sạc"
+          }
         }
       }
     },
@@ -1781,6 +2819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "功率等级"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mức công suất"
           }
         }
       }
@@ -1792,6 +2836,12 @@
             "state" : "translated",
             "value" : "射频模块"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối vô tuyến"
+          }
         }
       }
     },
@@ -1801,6 +2851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "额定"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Định mức"
           }
         }
       }
@@ -1812,6 +2868,12 @@
             "state" : "translated",
             "value" : "记录"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang ghi"
+          }
         }
       }
     },
@@ -1821,6 +2883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "右"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phải"
           }
         }
       }
@@ -1832,6 +2900,12 @@
             "state" : "translated",
             "value" : "综合效率"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiệu suất sạc"
+          }
         }
       }
     },
@@ -1841,6 +2915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "采样点"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mẫu đo"
           }
         }
       }
@@ -1852,6 +2932,12 @@
             "state" : "translated",
             "value" : "传感器"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảm biến"
+          }
         }
       }
     },
@@ -1861,6 +2947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "只有 MiniWatts 在前台时才能读取传感器，所以一次充电只能记录到屏幕保持点亮为止。打开后会保持屏幕常亮——但仅限连接充电器时，用电池时绝不会。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảm biến chỉ đọc được khi MiniWatts hiển thị trên màn hình, nên phiên sạc chỉ được ghi khi điện thoại còn thức. Bật tùy chọn này để giữ màn hình sáng khi kết nối bộ sạc; tùy chọn không áp dụng khi dùng pin."
           }
         }
       }
@@ -1872,6 +2964,12 @@
             "state" : "translated",
             "value" : "序列号"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số sê-ri"
+          }
         }
       }
     },
@@ -1881,6 +2979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "系列"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuỗi dữ liệu"
           }
         }
       }
@@ -1892,6 +2996,12 @@
             "state" : "translated",
             "value" : "严重发热"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nóng"
+          }
         }
       }
     },
@@ -1901,6 +3011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设置"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
           }
         }
       }
@@ -1912,6 +3028,12 @@
             "state" : "translated",
             "value" : "SoC 芯片"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lõi SoC"
+          }
         }
       }
     },
@@ -1921,6 +3043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "来源"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguồn"
           }
         }
       }
@@ -1932,6 +3060,12 @@
             "state" : "translated",
             "value" : "开始"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu"
+          }
         }
       }
     },
@@ -1941,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "存储"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ nhớ lưu trữ"
           }
         }
       }
@@ -1952,6 +3092,12 @@
             "state" : "translated",
             "value" : "储存"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã tích trữ"
+          }
         }
       }
     },
@@ -1961,6 +3107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充入电芯"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tích trữ trong pin"
           }
         }
       }
@@ -1972,6 +3124,12 @@
             "state" : "translated",
             "value" : "系统"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hệ thống"
+          }
         }
       }
     },
@@ -1981,6 +3139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "系统负载 + 损耗"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tải hệ thống + tổn hao"
           }
         }
       }
@@ -1992,6 +3156,12 @@
             "state" : "translated",
             "value" : "系统发热状态"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trạng thái nhiệt hệ thống"
+          }
         }
       }
     },
@@ -2001,6 +3171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "温度数据为实际测量值，但位置并非如此。iOS 仅报告传感器名称和数值，完全不包含坐标信息，因此各发热区域均按近年 iPhone 的常见布局绘制在固定位置 —— 主板位于上方摄像头后部，电池位于中部，充电芯片位于接口旁。不同机型的实际内部布局存在差异。请将此图作为下方列表的图例参考，而非手机内部的真实地图。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ được đo thực tế, còn vị trí chỉ mang tính minh họa. iOS báo tên và giá trị cảm biến nhưng không cung cấp tọa độ. Mỗi vùng được vẽ ở vị trí cố định theo bố cục thường gặp của iPhone đời mới: bo mạch ở phía trên, sau camera; pin ở giữa; IC sạc gần cổng. Bố cục thực tế khác nhau theo mẫu máy. Hãy dùng sơ đồ làm chú giải cho danh sách bên dưới, không phải bản đồ chính xác của điện thoại."
           }
         }
       }
@@ -2012,6 +3188,12 @@
             "state" : "translated",
             "value" : "发热"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ"
+          }
         }
       }
     },
@@ -2021,6 +3203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "温控限制已生效"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang giới hạn do nhiệt"
           }
         }
       }
@@ -2032,6 +3220,12 @@
             "state" : "translated",
             "value" : "此适配器未广播 PD 供电规格菜单。传统的 USB-A 充电器和部分无线充电板仅报告单个电压和电流。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ sạc này không công bố danh sách cấu hình PD. Bộ sạc USB-A cũ và một số đế sạc không dây chỉ báo một mức điện áp và dòng điện."
+          }
         }
       }
     },
@@ -2041,6 +3235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本次充电"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần sạc này"
           }
         }
       }
@@ -2052,6 +3252,12 @@
             "state" : "translated",
             "value" : "本机"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị này"
+          }
         }
       }
     },
@@ -2061,6 +3267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此会话在写入第一个样本前已结束。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên sạc này kết thúc trước khi mẫu đo đầu tiên được ghi."
           }
         }
       }
@@ -2072,6 +3284,12 @@
             "state" : "translated",
             "value" : "这些 API 属于私有接口，因此本构建版本仅供侧载使用：它无法通过 App Store 审核，且任何 iOS 系统更新都可能修改或移除其读取的数据。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các API này là riêng tư, nên bản này chỉ có thể cài ngoài App Store: ứng dụng không thể vượt qua kiểm duyệt App Store, và bất kỳ bản cập nhật iOS nào cũng có thể thay đổi hoặc loại bỏ dữ liệu đọc được."
+          }
         }
       }
     },
@@ -2081,6 +3299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "节流"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bị giới hạn"
           }
         }
       }
@@ -2092,6 +3316,12 @@
             "state" : "translated",
             "value" : "发热限频：iOS 正在限制充电电流与芯片频率。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang giới hạn do nhiệt: iOS đang giảm dòng sạc và xung nhịp."
+          }
         }
       }
     },
@@ -2101,6 +3331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "时间"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian"
           }
         }
       }
@@ -2112,6 +3348,12 @@
             "state" : "translated",
             "value" : "连接方式"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiểu kết nối"
+          }
         }
       }
     },
@@ -2121,6 +3363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不可用"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "không khả dụng"
           }
         }
       }
@@ -2132,6 +3380,12 @@
             "state" : "translated",
             "value" : "未知"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không rõ"
+          }
         }
       }
     },
@@ -2141,6 +3395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未知适配器"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ sạc không xác định"
           }
         }
       }
@@ -2152,6 +3412,12 @@
             "state" : "translated",
             "value" : "未知设备"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị không xác định"
+          }
         }
       }
     },
@@ -2162,12 +3428,24 @@
             "state" : "translated",
             "value" : "未识别的发热状态。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trạng thái nhiệt không xác định."
+          }
         }
       }
     },
     "USB-C" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "USB-C"
@@ -2182,6 +3460,12 @@
             "state" : "translated",
             "value" : "USB-C 输入"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đầu vào USB-C"
+          }
         }
       }
     },
@@ -2191,6 +3475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "USB-C 输入电流"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng đầu vào USB-C"
           }
         }
       }
@@ -2202,6 +3492,12 @@
             "state" : "translated",
             "value" : "USB-C 输入电压"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện áp đầu vào USB-C"
+          }
         }
       }
     },
@@ -2211,6 +3507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "仅用于百分比变化率估算，这也是查看放电功率的唯一方式：沙盒应用无法访问任何放电电流传感器。请查询您机型的额定能量（例如 iPhone 17 Pro Max 约为 19.7 Wh）并在此输入。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ dùng để ước tính theo tốc độ thay đổi %, cũng là cách duy nhất để xem công suất xả pin: ứng dụng trong sandbox không truy cập được cảm biến dòng xả. Hãy tra năng lượng định mức của mẫu máy rồi nhập tại đây; ví dụ, iPhone 17 Pro Max có khoảng 19,7 Wh."
           }
         }
       }
@@ -2222,6 +3524,12 @@
             "state" : "translated",
             "value" : "W 额定"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W định mức"
+          }
         }
       }
     },
@@ -2231,6 +3539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "温度上升中，充电电流可能会被削减。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang ấm lên. Dòng sạc có thể bị giảm."
           }
         }
       }
@@ -2242,6 +3556,12 @@
             "state" : "translated",
             "value" : "功率"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watt"
+          }
         }
       }
     },
@@ -2251,6 +3571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "系统正在因发热限频，功率远低于适配器额定值——此刻的瓶颈是温度，不是充电器。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công suất nhận thấp hơn nhiều so với định mức khi hệ thống đang giới hạn do nhiệt. Giới hạn lúc này đến từ nhiệt, không phải bộ sạc."
           }
         }
       }
@@ -2262,6 +3588,12 @@
             "state" : "translated",
             "value" : "有线"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có dây"
+          }
         }
       }
     },
@@ -2271,6 +3603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không dây"
           }
         }
       }
@@ -2282,6 +3620,12 @@
             "state" : "translated",
             "value" : "无线充电器"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ sạc không dây"
+          }
         }
       }
     },
@@ -2291,6 +3635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线充电没有输入电流传感器，因此无法与额定功率进行对比。下方的电压与电流为充电板协商的供电规格 —— 仅作为固定上限，而实际功率则会动态变动。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sạc không dây không có cảm biến dòng đầu vào, nên không có số đo để so với định mức. Điện áp và dòng điện bên dưới là cấu hình đã thương lượng với đế sạc: giới hạn này giữ nguyên trong khi công suất nhận thực tế thay đổi."
           }
         }
       }
@@ -2302,6 +3652,12 @@
             "state" : "translated",
             "value" : "无线充电的上限远低于同一适配器通过线缆能提供的功率。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sạc không dây bị giới hạn thấp hơn nhiều so với công suất bộ sạc có thể cấp qua cáp."
+          }
         }
       }
     },
@@ -2311,6 +3667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线充电线圈"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuộn sạc không dây"
           }
         }
       }
@@ -2322,6 +3684,12 @@
             "state" : "translated",
             "value" : "无线输入"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đầu vào không dây"
+          }
         }
       }
     },
@@ -2331,6 +3699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线输入电流"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng đầu vào không dây"
           }
         }
       }
@@ -2342,6 +3716,12 @@
             "state" : "translated",
             "value" : "无线输入电压"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điện áp đầu vào không dây"
+          }
         }
       }
     },
@@ -2351,6 +3731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "锁定屏幕与小组件"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình khóa và widget"
           }
         }
       }
@@ -2362,6 +3748,12 @@
             "state" : "translated",
             "value" : "充电时显示实时活动"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoạt động trực tiếp khi sạc"
+          }
         }
       }
     },
@@ -2371,6 +3763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在锁定屏幕、灵动岛和待机显示中显示充电功率。它只在 MiniWatts 运行时更新；App 被挂起后，读数会标记为已暂停，而不会被当作当前数值显示。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị công suất sạc trên Màn hình khóa, Dynamic Island và Chế độ chờ. Chỉ cập nhật khi MiniWatts đang chạy; khi ứng dụng bị tạm ngưng, số đo được đánh dấu là đã tạm dừng thay vì hiển thị như dữ liệu hiện tại."
           }
         }
       }
@@ -2382,6 +3780,12 @@
             "state" : "translated",
             "value" : "小组件会在 iOS 刷新时自行读取传感器——通常每 15 到 60 分钟一次；MiniWatts 打开时插拔充电器会立即刷新。每个小组件都会注明数据的读取时间。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget tự đọc cảm biến mỗi khi iOS làm mới, thường sau 15–60 phút, và ngay khi bạn cắm hoặc rút sạc lúc MiniWatts đang mở. Mỗi widget đều ghi thời điểm đo."
+          }
         }
       }
     },
@@ -2391,6 +3795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "悬浮读数"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng hồ nổi"
           }
         }
       }
@@ -2402,6 +3812,12 @@
             "state" : "translated",
             "value" : "打开悬浮读数"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở đồng hồ nổi"
+          }
         }
       }
     },
@@ -2411,6 +3827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关闭悬浮读数"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng đồng hồ nổi"
           }
         }
       }
@@ -2422,6 +3844,12 @@
             "state" : "translated",
             "value" : "此设备不支持画中画。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết bị này không hỗ trợ Hình trong hình."
+          }
         }
       }
     },
@@ -2431,6 +3859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把读数放进一个悬浮窗，它浮在其他 App 上方，每秒更新一次。这是 iOS 唯一允许 App 在离开屏幕后还能让数字继续走动的地方：小组件每小时只刷新几次，锁屏实时活动也只在 MiniWatts 自己运行时才会变。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị số đo trong cửa sổ nổi phía trên các ứng dụng khác và cập nhật mỗi giây. Đây là nơi duy nhất iOS cho phép ứng dụng liên tục cập nhật số đo khi không hiển thị trên màn hình: widget chỉ làm mới vài lần mỗi giờ, còn hoạt động trên Màn hình khóa chỉ cập nhật khi MiniWatts đang chạy."
           }
         }
       }
@@ -2442,6 +3876,12 @@
             "state" : "translated",
             "value" : "悬浮窗开着时 MiniWatts 会一直运行，所以锁屏后也能继续记录这次充电，同时也比挂起时更耗电，用完请关掉它。它不会播放任何声音：悬浮窗用的是和角落里播放视频相同的系统功能，App 声明音频播放能力只是为了它。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi cửa sổ mở, MiniWatts tiếp tục chạy và ghi lại phiên sạc ngay cả khi màn hình khóa, đồng thời tiêu thụ nhiều điện hơn khi bị tạm ngưng. Hãy đóng cửa sổ khi dùng xong. Ứng dụng không phát âm thanh; cửa sổ dùng cùng tính năng hệ thống với video phát ở góc màn hình, đó là lý do ứng dụng khai báo phát âm thanh."
+          }
         }
       }
     },
@@ -2451,6 +3891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iOS 现在还不让打开这个窗口。让 MiniWatts 在屏幕上多停一会儿，再试一次。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS chưa cho phép mở cửa sổ. Hãy giữ MiniWatts trên màn hình một lát rồi thử lại."
           }
         }
       }
@@ -2462,6 +3908,12 @@
             "state" : "translated",
             "value" : "传感器叫什么、怎么换算、甚至有没有这个传感器，都因机型而异，而且没有任何官方文档。这个版本是在 iPhone Air（iPhone18,4）上开发和验证的。换一个机型，某项读数可能不存在，也可能名字和实际含义对不上。明显不可能的数值会被隐藏而不是显示出来，但一个看着还算合理、实际却是错的数值，这样是拦不住的——所以看到反常的数字请当它可疑，并带上你的机型标识反馈给我。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên, thang đo và cả sự hiện diện của cảm biến khác nhau giữa các mẫu máy và không có tài liệu mô tả. Bản này được viết và kiểm tra trên iPhone Air (iPhone18,4). Trên mẫu khác, số đo có thể thiếu hoặc thuộc bộ phận khác với tên gọi. Giá trị bất khả thi sẽ bị ẩn, nhưng không thể phát hiện số đo sai nếu nó vẫn có vẻ hợp lý. Hãy thận trọng với giá trị bất thường và báo lại kèm mã định danh mẫu máy."
+          }
         }
       }
     },
@@ -2471,6 +3923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "传感器的名称和换算方式因 iPhone 机型而异，这个版本是在 iPhone Air 上验证的。不可能的读数会被隐藏，但只是错、却还说得过去的读数拦不住——如果这里有哪个数字在你的机型上看着不对，很可能就是不对。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên và thang đo cảm biến khác nhau theo mẫu iPhone; bản này được kiểm tra trên iPhone Air. Giá trị bất khả thi sẽ bị ẩn, nhưng không thể phát hiện mọi số đo sai theo cách đó. Nếu dữ liệu có vẻ bất thường trên mẫu máy của bạn, nó có thể không chính xác."
           }
         }
       }
@@ -2482,6 +3940,12 @@
             "state" : "translated",
             "value" : "免费开源"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miễn phí và mã nguồn mở"
+          }
         }
       }
     },
@@ -2491,6 +3955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "采用 Apache 2.0 许可证，整个 App（包括小组件）的源码都在 GitHub 上。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giấy phép Apache 2.0. Toàn bộ ứng dụng, gồm cả widget, có trên GitHub."
           }
         }
       }
@@ -2502,6 +3972,12 @@
             "state" : "translated",
             "value" : "等待数据"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ĐANG CHỜ"
+          }
         }
       }
     },
@@ -2511,6 +3987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "实时 · 1秒"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TRỰC TIẾP · 1 GIÂY"
           }
         }
       }
@@ -2522,6 +4004,12 @@
             "state" : "translated",
             "value" : "请在设置中选择显示内容"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn nội dung trong Cài đặt"
+          }
         }
       }
     },
@@ -2531,6 +4019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电功率"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công suất sạc"
           }
         }
       }
@@ -2542,6 +4036,12 @@
             "state" : "translated",
             "value" : "部件温度"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ linh kiện"
+          }
         }
       }
     },
@@ -2551,6 +4051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电器"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ sạc"
           }
         }
       }
@@ -2562,6 +4068,12 @@
             "state" : "translated",
             "value" : "温度显示"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị nhiệt độ"
+          }
         }
       }
     },
@@ -2571,6 +4083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "全部部件"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tất cả linh kiện"
           }
         }
       }
@@ -2582,6 +4100,12 @@
             "state" : "translated",
             "value" : "SoC 温度"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ SoC"
+          }
         }
       }
     },
@@ -2591,6 +4115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池温度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ pin"
           }
         }
       }
@@ -2602,6 +4132,12 @@
             "state" : "translated",
             "value" : "充电器温度"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệt độ bộ sạc"
+          }
         }
       }
     },
@@ -2611,6 +4147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最高部件温度"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linh kiện nóng nhất"
           }
         }
       }
@@ -2622,6 +4164,12 @@
             "state" : "translated",
             "value" : "布局"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bố cục"
+          }
         }
       }
     },
@@ -2631,6 +4179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "同屏"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cùng lúc"
           }
         }
       }
@@ -2642,6 +4196,12 @@
             "state" : "translated",
             "value" : "分页轮播"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trang riêng"
+          }
         }
       }
     },
@@ -2651,6 +4211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "至少选择一项显示内容。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn ít nhất một mục để hiển thị."
           }
         }
       }
@@ -2662,6 +4228,12 @@
             "state" : "translated",
             "value" : "温度可选择全部部件或单独一个部件，且始终显示 iOS 系统发热状态。同屏模式同时显示功率和温度；分页轮播模式每四秒切换一次。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn tất cả nhiệt độ hoặc một linh kiện; trạng thái nhiệt hệ thống iOS luôn được hiển thị. “Cùng lúc” hiển thị công suất và nhiệt độ đồng thời; “Trang riêng” luân phiên hai nội dung mỗi bốn giây."
+          }
         }
       }
     },
@@ -2671,6 +4243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "主要读数"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số đo chính"
           }
         }
       }
@@ -2682,6 +4260,12 @@
             "state" : "translated",
             "value" : "灵动岛紧凑状态显示此项读数。长按展开后可同时查看功率、SoC、电池和最高部件温度。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamic Island thu gọn hiển thị số đo này. Nhấn và giữ để xem đồng thời công suất cùng nhiệt độ SoC, pin và linh kiện nóng nhất."
+          }
         }
       }
     },
@@ -2692,6 +4276,12 @@
             "state" : "translated",
             "value" : "连接充电器且 MiniWatts 位于前台时会启动实时活动，并在 MiniWatts 运行期间持续刷新；App 被暂停后，读数会标记为已暂停。在 MiniWatts 运行时拔下充电器，两分钟后自动结束；如果拔下时 App 已被暂停，它会一直保留，直到 MiniWatts 再次运行。随时可以点实时活动上的“结束”把它关掉。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoạt động bắt đầu khi bộ sạc được kết nối và MiniWatts hiển thị trên màn hình, cập nhật khi MiniWatts chạy, và đánh dấu số đo là tạm dừng khi ứng dụng bị tạm ngưng. Nếu rút sạc khi MiniWatts đang chạy, hoạt động kết thúc sau hai phút; nếu rút khi ứng dụng bị tạm ngưng, hoạt động vẫn còn cho đến khi MiniWatts chạy lại. Nhấn Kết thúc trên hoạt động để đóng bất cứ lúc nào."
+          }
         }
       }
     },
@@ -2701,6 +4291,278 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "结束实时活动"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết thúc hoạt động trực tiếp"
+          }
+        }
+      }
+    },
+    "From one sample, against the negotiated %@. That figure is a ceiling rather than a measurement, so read this as an order of magnitude. Once the current moves — the taper past 80%%, thermal throttling, the phone's own load — it is replaced by a fit that needs no reference at all." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "单次采样，以协商出的 %@ 为参考。那个值是天花板而不是测量值，所以只能当数量级看。一旦电流动起来——80% 之后的涓流、热降频、手机自身的负载——它就会被一个完全不需要参考值的拟合结果取代。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dựa trên một mẫu đo, so với mức %@ đã thương lượng. Đây là giới hạn tối đa chứ không phải số đo, nên chỉ dùng để ước lượng độ lớn. Khi dòng điện thay đổi do giảm dòng sau 80%%, giới hạn nhiệt hoặc tải của điện thoại, kết quả sẽ được thay bằng phép khớp không cần giá trị tham chiếu."
+          }
+        }
+      }
+    },
+    "%lld devices" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld thiết bị"
+          }
+        }
+      }
+    },
+    "%lld keys" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld khóa"
+          }
+        }
+      }
+    },
+    "Accessory manager" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trình quản lý phụ kiện"
+          }
+        }
+      }
+    },
+    "Adapter details" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chi tiết bộ sạc"
+          }
+        }
+      }
+    },
+    "BatteryCenter" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter"
+          }
+        }
+      }
+    },
+    "Charge status" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trạng thái sạc"
+          }
+        }
+      }
+    },
+    "Empty. On a device the sandbox filters most of this away; on the simulator it is the Mac's data." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trống. Trên thiết bị, sandbox lọc bỏ phần lớn dữ liệu này; trên trình mô phỏng, đây là dữ liệu của máy Mac."
+          }
+        }
+      }
+    },
+    "Enumerate every HID service" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liệt kê mọi dịch vụ HID"
+          }
+        }
+      }
+    },
+    "Every value the probes returned, unedited." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi giá trị bộ đọc trả về, chưa chỉnh sửa."
+          }
+        }
+      }
+    },
+    "Filter sensors and keys" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lọc cảm biến và khóa"
+          }
+        }
+      }
+    },
+    "HID service inventory" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danh sách dịch vụ HID"
+          }
+        }
+      }
+    },
+    "IOPMPowerSource" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IOPMPowerSource"
+          }
+        }
+      }
+    },
+    "Lists every service the HID event system exposes, matched or not, with its usage page and usage. This is how the power and temperature sensors were found in the first place." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liệt kê mọi dịch vụ mà hệ thống sự kiện HID cung cấp, dù có khớp bộ lọc hay không, kèm trang sử dụng và mã sử dụng. Đây là cách các cảm biến công suất và nhiệt độ được tìm thấy ban đầu."
+          }
+        }
+      }
+    },
+    "Live sensors" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảm biến trực tiếp"
+          }
+        }
+      }
+    },
+    "Matched, but every key came back empty." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã tìm thấy dịch vụ phù hợp nhưng mọi khóa đều trả về dữ liệu trống."
+          }
+        }
+      }
+    },
+    "No devices reported." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có thiết bị nào được báo cáo."
+          }
+        }
+      }
+    },
+    "No sensors returned a finite value." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có cảm biến nào trả về giá trị hữu hạn."
+          }
+        }
+      }
+    },
+    "Probe the accessory registry" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đọc registry phụ kiện"
+          }
+        }
+      }
+    },
+    "Probes" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ đọc cảm biến"
+          }
+        }
+      }
+    },
+    "Raw data" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dữ liệu thô"
+          }
+        }
+      }
+    },
+    "Reads the IOAccessoryManager registry family — the charger's connect type, current limit, manufacturer, model and serial — plus the USB-PD nodes macOS publishes for the cable. Registry reads only: nothing is opened and nothing is written." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đọc nhóm registry IOAccessoryManager: kiểu kết nối, giới hạn dòng điện, nhà sản xuất, mẫu và số sê-ri của bộ sạc, cùng các nút USB-PD mà macOS cung cấp cho cáp. Chỉ đọc registry, không mở kết nối hay ghi dữ liệu."
+          }
+        }
+      }
+    },
+    "SoC" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SoC"
+          }
+        }
+      }
+    },
+    "powerd power source" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nguồn điện powerd"
+          }
+        }
+      }
+    },
+    "powerd power sources" : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các nguồn điện powerd"
+          }
+        }
+      }
+    },
+    "powerd reported no power sources." : {
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "powerd không báo nguồn điện nào."
           }
         }
       }
